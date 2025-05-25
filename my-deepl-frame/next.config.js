@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // 必要な設定があればここに追加
+  // Next.js 13以降では serverActions は不要なので、experimental は削除してもOK
 };
 
 module.exports = nextConfig;
